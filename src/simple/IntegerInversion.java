@@ -6,7 +6,7 @@ package simple;
  */
 public class IntegerInversion {
     public static void main(String[] args) {
-        System.out.println(reverse(120));
+        System.out.println(reverse(123));
     }
 
     private static int reverse(int x) {
