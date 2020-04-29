@@ -1,6 +1,7 @@
 package simple;
 
 /**
+ * 回文数
  * @author jianjieming
  * @date 2020/4/27 17:54
  */
