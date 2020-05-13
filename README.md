@@ -1,11 +1,14 @@
 # LeetCode 每日一题
 
 * [简单(Simple)](#%E7%AE%80%E5%8D%95simple)
-    * [两数之和(TwoNumSum)](#%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8Ctwonumsum)
-    * [整数反转(IntegerInversion)](#%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%ACintegerinversion)
-    * [回文数(Palindrome)](#%E5%9B%9E%E6%96%87%E6%95%B0palindrome)
-    * [罗马数字转整数(RomanToInt)](#%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0romantoint)
-    
+   * [两数之和(TwoNumSum)](#%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8Ctwonumsum)
+   * [整数反转(IntegerInversion)](#%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%ACintegerinversion)
+   * [回文数(Palindrome)](#%E5%9B%9E%E6%96%87%E6%95%B0palindrome)
+   * [罗马数字转整数(RomanToInt)](#%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0romantoint)
+   * [最长公共前缀(LongestCommonPrefix)](#%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80longestcommonprefix)
+   * [有效的括号(ValidParentheses)](#%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7validparentheses)
+   * [合并两个有序链表(MergeTwoLists)](#%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8mergetwolists)
+         
 ------
 
 ## 简单(Simple)
@@ -123,3 +126,8 @@
 - 示例 4: 输入: "([)]", 输出: false
 - 示例 5: 输入: "{[]}", 输出: true
 
+#### 合并两个有序链表(MergeTwoLists)
+
+将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
+
+- 示例 : 输入：1->2->4, 1->3->4,  输出：1->1->2->3->4->4
