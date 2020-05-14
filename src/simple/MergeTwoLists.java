@@ -1,6 +1,7 @@
 package simple;
 
 /**
+ * 合并两个有序链表
  * @author jianjieming
  * @date 2020/5/13 14:08
  */
