@@ -8,7 +8,10 @@
    * [最长公共前缀(LongestCommonPrefix)](#%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80longestcommonprefix)
    * [有效的括号(ValidParentheses)](#%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7validparentheses)
    * [合并两个有序链表(MergeTwoLists)](#%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8mergetwolists)
-         
+   * [删除排序数组中的重复项(RemoveDuplicates)](#%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9removeduplicates)
+   * [移除元素(RemoveElement)](#%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0removeelement)
+   * [匹配字符串(MatchStr)](#%E5%8C%B9%E9%85%8D%E5%AD%97%E7%AC%A6%E4%B8%B2matchstr)
+   * [搜索插入位置(SearchInsert)](#%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AEsearchinsert)
 ------
 
 ## 简单(Simple)
@@ -257,6 +260,42 @@ for (int i = 0; i < len; i++) {
 当 needle 是空字符串时，我们应当返回什么值呢？这是一个在面试中很好的问题。
 
 对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
+
+------
+
+#### 搜索插入位置(SearchInsert)
+
+给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
+
+你可以假设数组中无重复元素。
+
+**示例 1:**
+
+```
+输入: [1,3,5,6], 5
+输出: 2
+```
+
+**示例 2:**
+
+```
+输入: [1,3,5,6], 2
+输出: 1
+```
+
+**示例 3:**
+
+```
+输入: [1,3,5,6], 7
+输出: 4
+```
+
+**示例 4:**
+
+```
+输入: [1,3,5,6], 0
+输出: 0
+```
 
 ------
 
